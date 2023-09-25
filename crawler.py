@@ -12,9 +12,9 @@ intents.typing = False
 intents.presences = False
 
 # Bot TOKEN, SERVER ID, CHANNEL ID
-TOKEN = 'YOUR BOT TOKEN'
-GUILD_ID = YOUR SERVER ID
-CHANNEL_ID = YOUR CHANNEL ID
+TOKEN = 'YOUR_TOKEN'
+server_id = YOUR_SERVER_ID
+channel_id = YOUR_CHANNEL_ID
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.event
